@@ -1,0 +1,137 @@
+#navbar .nav-item{
+	margin-left: 1em;
+	text-transform: uppercase;
+}
+
+#showcase .carousel-item{
+	height: 450px;
+}
+
+#showcase .carousel-img-1{
+	background: url('../img/post-format.jpg'); 
+	background-size: cover;
+}
+
+#showcase .carousel-img-2{
+	background: url('../img/img_ny.jpg'); 
+	background-size: cover;
+}
+
+#showcase .carousel-img-3{
+	background: url('../img/la.jpg'); 
+	background-size: cover;
+}
+
+#showcase .imageOverly {
+    background: #13010178 !important;
+    height: 450px;
+}
+
+#homeIcon i{
+		font-size: 50px;
+}
+
+#homeGet .imageAdd{
+	background: rgba(0,0,0,0.7);
+}
+#homeGet .imageOverly{
+	background-image: url('../img/post_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#homeInfo .img_size {
+    width: 480px;
+    height: 320px;
+}
+
+
+#imgOverly .imgAdd{
+	background: rgba(0,0,0,0.7);
+}
+#imgOverly{
+	background-image: url('../img/img6.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#imgOverly .FontSize{
+	font-size: 50px;
+	color: red;
+}
+
+#HomePhoto img{
+	width: 300px;
+	height: 200px;
+
+}
+#copyright{
+	background: #000;
+}
+
+
+
+
+
+
+
+#AboutUs .imgOverly .imgAdd{
+	background: rgba(0,0,0,0.7);
+}
+#AboutUs .imgOverly{
+	background-image: url('../img/img6.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#AboutCard .fa{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+#AboutCard h3{
+	color:#fff;
+}
+
+.slick-prev::before,.slick-next::before{
+	color: #000;
+}
+
+
+#servicess .imgOverly .imgAdd{
+	background: rgba(0,0,0,0.5);
+}
+#servicess .imgOverly{
+	background-image: url('../img/img3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+#blog .imgOverly .imgAdd{
+	background: rgba(0,0,0,0.6);
+}
+#blog .imgOverly{
+	background-image: url('../img/banner_img.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#blog img{
+	width: 354px;
+	height: 231px;
+}
+
+
+@media(max-width: 635px){
+	#showcase h2{
+	font-size: 3.5rem;
+}
+}
+@media(max-width: 335px){
+	#showcase h2{
+	font-size: 2.5rem;
+}
+}
